@@ -51,6 +51,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="bit_array_to_real.vi" Type="VI" URL="../ief_xxu/bit_array_to_real.vi"/>
+		<Item Name="FGV.vi" Type="VI" URL="../ief_new/FGV.vi"/>
 		<Item Name="IEEE_hex_to_real.vi" Type="VI" URL="../ief_xxu/IEEE_hex_to_real.vi"/>
 		<Item Name="IEEE_real_to_hex.vi" Type="VI" URL="../ief_xxu/IEEE_real_to_hex.vi"/>
 		<Item Name="ief_ext_read_h-w_status.ctl" Type="VI" URL="../ief_xxu/ief_ext_read_h-w_status.ctl"/>
@@ -66,6 +67,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="ief_abort_auto.vi" Type="VI" URL="../ief_xxx/ief_abort_auto.vi"/>
 			<Item Name="ief_abort_online.vi" Type="VI" URL="../ief_xxx/ief_abort_online.vi"/>
+			<Item Name="ief_close_connections.vi" Type="VI" URL="../ief_new/ief_close_connections.vi"/>
 			<Item Name="ief_control_move_axis.vi" Type="VI" URL="../ief_xxx/ief_control_move_axis.vi"/>
 			<Item Name="ief_ext_read_h-w_status.vi" Type="VI" URL="../ief_xxx/ief_ext_read_h-w_status.vi"/>
 			<Item Name="ief_get_axis_parameter.vi" Type="VI" URL="../ief_xxx/ief_get_axis_parameter.vi"/>
@@ -91,6 +93,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="ief_get_system_parameter_max.vi" Type="VI" URL="../ief_xxx/ief_get_system_parameter_max.vi"/>
 			<Item Name="ief_get_system_parameter_min.vi" Type="VI" URL="../ief_xxx/ief_get_system_parameter_min.vi"/>
 			<Item Name="ief_get_temperature.vi" Type="VI" URL="../ief_xxx/ief_get_temperature.vi"/>
+			<Item Name="ief_open_connections.vi" Type="VI" URL="../ief_new/ief_open_connections.vi"/>
 			<Item Name="ief_put_flag_word.vi" Type="VI" URL="../ief_xxx/ief_put_flag_word.vi"/>
 			<Item Name="ief_put_float_reg.vi" Type="VI" URL="../ief_xxx/ief_put_float_reg.vi"/>
 			<Item Name="ief_put_int_reg.vi" Type="VI" URL="../ief_xxx/ief_put_int_reg.vi"/>
