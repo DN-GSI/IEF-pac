@@ -49,17 +49,19 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Communication-VIs" Type="Folder">
+			<Item Name="ief_connnect_2_SV_dbl.vi" Type="VI" URL="../ief_new/ief_connnect_2_SV_dbl.vi"/>
+			<Item Name="ief_connnect_2_SV_u32.vi" Type="VI" URL="../ief_new/ief_connnect_2_SV_u32.vi"/>
+			<Item Name="ief_read_data.vi" Type="VI" URL="../ief_xxu/ief_read_data.vi"/>
+			<Item Name="ief_get_send_flag.vi" Type="VI" URL="../ief_xxu/ief_get_send_flag.vi"/>
+			<Item Name="ief_send_command.vi" Type="VI" URL="../ief_xxu/ief_send_command.vi"/>
+		</Item>
 		<Item Name="bit_array_to_real.vi" Type="VI" URL="../ief_xxu/bit_array_to_real.vi"/>
 		<Item Name="FGV.vi" Type="VI" URL="../ief_new/FGV.vi"/>
 		<Item Name="IEEE_real_to_hex.vi" Type="VI" URL="../ief_xxu/IEEE_real_to_hex.vi"/>
-		<Item Name="ief_connnect_2_SV_dbl.vi" Type="VI" URL="../ief_new/ief_connnect_2_SV_dbl.vi"/>
-		<Item Name="ief_connnect_2_SV_u32.vi" Type="VI" URL="../ief_new/ief_connnect_2_SV_u32.vi"/>
 		<Item Name="ief_ext_read_h-w_status.ctl" Type="VI" URL="../ief_xxu/ief_ext_read_h-w_status.ctl"/>
 		<Item Name="ief_extended_status_axis_cluster.ctl" Type="VI" URL="../ief_xxu/ief_extended_status_axis_cluster.ctl"/>
-		<Item Name="ief_get_send_flag.vi" Type="VI" URL="../ief_xxu/ief_get_send_flag.vi"/>
-		<Item Name="ief_read_data.vi" Type="VI" URL="../ief_xxu/ief_read_data.vi"/>
-		<Item Name="ief_send_command.vi" Type="VI" URL="../ief_xxu/ief_send_command.vi"/>
 		<Item Name="real_to_bit_array.vi" Type="VI" URL="../ief_xxu/real_to_bit_array.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
